@@ -13,7 +13,7 @@
 	--font-normal: 500;
 }
 @media screen and (min-width: 1024px) {
-	.root {
+	:root {
 		--font-big: 5rem;
 		--font-middle: 3.15rem;
 
@@ -26,6 +26,9 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+}
+body {
+	width: 100%;
 }
 a {
 	text-decoration: none;
@@ -132,11 +135,13 @@ ul li {
 	flex-direction: column;
 	justify-content: space-evenly;
 	left: 5%;
+	width: max-content;
 }
 .content-text {
 	display: flex;
 	flex-direction: column;
 	row-gap: 0.8rem;
+	width: 100%;
 }
 .bg img {
 	position: absolute;
