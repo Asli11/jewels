@@ -176,7 +176,7 @@ h3 {
 	font-weight: var(--font-bold);
 }
 .details p {
-	font-size: var(--font-smaller);
+	font-size: large;
 	padding-right: 5px;
 }
 button {
